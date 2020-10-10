@@ -2,7 +2,7 @@
 <?php foreach( $order->get_items() as $item ):  
 	$_product = wc_get_product( $item['product_id'] );
          // WooCommerce Produkt-ID(s)
-        if ( $item['product_id'] == 643 ):  
+        if ( $item['product_id'] == 333 ):  
                 $present = true; ?>
 					
 <?php endif; endforeach; ?>
